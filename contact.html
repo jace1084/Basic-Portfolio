@@ -1,67 +1,50 @@
 <!DOCtype html>
 <html>
-    <head>
-        <body>
-           
-            <h1>Jason Neitro</h1>
+<head>
+    <title>About Me</title>
+</head>
+<body>
+    <header id="master">
+        <div class="container">
+        <a href="index.html" id="logo">Jason M. Neitro</a>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        </div>
+    </header>     
+    <div id="main container" class="container">
+    <section class="main-container">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" Placeholder="John Smith" required="requried">
+            </li> 
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="name" Placeholder="example@gmail.com" required="requried">
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                 required="requried"></textarea>
+            </li>
+            </ul>
+                <input type="submit" name="submit">
+        </form>
 
-                <br>
-                <br>
+        </div>       
+        </section>
 
-            <div class="tab">
-                <button class="tablinks" onclick="openAbout">About</button>
-                <button class="tablinks" onclick="openPortfolio">Portfolio</button>
-                <button class="tablinks" onclick="openContact">Contact</button>
-            </div>
+    <footer>
+        <div class="container">
+            &copy; Copyright 2016 Jason M. Neitro
+        </div>
+    </footer>
 
-              <!-- Tab content -->
-            <div id="About" class="tabcontent">
-                 
-            </div>
-              
-            <div id="Portfolio" class="tabcontent">
-      
-            </div>
-              
-            <div id="Contact" class="tabcontent">
+</body>
 
-            <div id="Submit" class="tabcontent">
-                 
-            </div>
-              
-            </div>
-                <br>
-                <br>
-            
-            <h1>Contact</h1>
-
-                <br>
-                <br>
-
-            <h3>Name</h3>
-
-                <br>
-                <br>
-
-            <h3>Email</h3>
-
-                <br>
-                <br>
-
-            <h3>Message</h3>
-
-                <br>
-                <br>
-
-            <div class="tab">
-
-            <button class="tablinks" onclick="openSubmit">Submit</button>
-
-            </div>
-
-           
-
-
-        </body>
-    </head>
 </html>
